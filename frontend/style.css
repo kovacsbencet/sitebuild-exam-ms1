@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+    background: transparent;
+    font-family: inherit;
+}
+
+a{
+    text-decoration: none;
+}
+
+a img {
+    border: none;
+}
+  
+button,
+a {
+    cursor: pointer;
+    color: inherit;
+}
+  
+textarea {
+    resize: none;
+}
+  
+button,
+textarea,
+select {
+    appearance: none !important;
+    border-radius: 0;
+}
+
+/* END OF CSS RESET*/
+
+
+.section{
+    max-width: 1200px;
+}
+
+#section1{    
+    position: relative;
+    background-color: #efd592;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+#section2{
+    position: relative;
+    background-color: #4343f9;
+    height: 50vh;
+}
+
+#button1{
+    background-color: #242d38;
+    color: #efd592;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: lighter;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+}
+
+#button2{
+    color: #242d38;
+    position: absolute;
+    right: 40px;
+    bottom: 40px;
+    width: 200px;
+    height: 60px;
+    border: 6px solid #242d38;
+    font-family: 'Poppins', sans-serif;
+    font-size: 21px;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+}
+
+#button3{
+    background-color: #4343f9;
+    color: #fff;
+    position: absolute;
+    bottom: 40px;
+    box-shadow: 20px #4343f9;
+    font-family: 'Poppins', sans-serif;
+    font-size: 21px;
+    font-weight: 400;
+}
